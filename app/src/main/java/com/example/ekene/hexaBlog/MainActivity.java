@@ -123,6 +123,9 @@ public class MainActivity extends AppCompatActivity {
             Intent logouIntent = new Intent(MainActivity.this, LoginActivity.class);
             logouIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(logouIntent);
+        }else if(id == R.id.menu_news){
+            Intent menuIntent = new Intent(MainActivity.this, NewsList.class);
+            startActivity(menuIntent);
         }
         return super.onOptionsItemSelected(item);
     }
