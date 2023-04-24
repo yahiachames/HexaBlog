@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ekene.hexaBlog.ProfileActivity">
+
+
+    <ImageButton
+        android:id="@+id/imagebutton"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        />
+
+    <EditText
+
+        android:background="@color/colorwhite"
+        android:padding="10dp"
+        android:textColor="@color/colorygray"
+        android:id="@+id/profUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Display name"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@color/colorpurple"
+        android:textColor="#fff"
+        android:id="@+id/doneBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        />
+
+</LinearLayout>
